@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+.blogList {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  align-items: center;
+}
+
+.title{
+  font-size: 35px;
+  font-family:cursive;
+  letter-spacing: 0.5rem;
+}
+.blogPreview{
+    box-sizing: border-box;
+    width: 40%;
+    text-align: center;
+    padding: 0.8rem;
+    cursor: pointer;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.blogPreview:hover{
+    border-radius: 8px;
+    background-color: rgb(255, 221, 208);
+    box-shadow: 2px 2px 2px rgb(112, 112, 112);
+    
+}
+
+.blogPreview h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  letter-spacing: 0.3rem;
+  margin-bottom: 0.2rem;
+  color: rgb(173, 3, 88)
+}
+
+.blogPreview a{
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Edu+TAS+Beginner:wght@500&family=Raleway&display=swap');
+.blogDetails{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+article{
+    width: 80%;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+h2{
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+}
+
+span{
+    font-family: 'Raleway', sans-serif;
+}
+
+.content{
+    font-family: 'Edu TAS Beginner', cursive;
+    margin-top: 2rem;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.content::first-letter { 
+    font-size: 35px; 
+    color: rgb(189, 7, 7); 
+}
+
+.deleteBtn{
+    margin: 1rem;
+    border: none;
+    border-radius: 8px;
+    width: 5rem;
+    height: 2.5rem;
+    background-color: #c20b0b;
+    color: white;
+    cursor: pointer;
+}
