@@ -31,5 +31,8 @@ A simple blog website built with React.js, utilizing React Router for navigation
 ## Author
 Rohit Kirti
 
+## Deployed Link
+https://blogbuster.onrender.com
+
 ## Contributing
 Feel free to contribute to this project by creating issues or submitting pull requests.
